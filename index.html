@@ -3,72 +3,69 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>My Portfolio</title>
+  <title>Dipali Gupta | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+
   <header>
-    <h1>Dipali Gupta</h1>
-    <nav>
+    <div class="logo">Dipali Gupta</div>
+    <nav class="nav">
       <a href="#about">About</a>
       <a href="#projects">Projects</a>
+      <a href="#resume">Resume</a>
       <a href="#contact">Contact</a>
     </nav>
+    <button class="nav-toggle" id="navToggle">☰</button>
   </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>Hi, I'm Dipali Gupta, a passionate Web Developer based in India.</p>
-    <p>I hold a Bachelor's degree in Computer Applications (BCA) and specialize in building responsive, user-friendly websites using HTML, CSS, and JavaScript.</p>
-    <p>I'm continuously learning and improving my skills to stay up-to-date with modern web technologies. I enjoy turning ideas into real, functional websites.</p>
-    <p>I'm open to internships, freelance opportunities, and collaborative projects where I can grow and contribute.</p>
-  </section>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hi, I'm Dipali Gupta, a passionate Web Developer based in India.</p>
+      <p>I hold a Bachelor's degree in Computer Applications (BCA) and specialize in building responsive, user-friendly websites using HTML, CSS, and JavaScript.</p>
+      <p>I'm continuously learning and improving my skills to stay up-to-date with modern web technologies. I enjoy turning ideas into real, functional websites.</p>
+      <p>I'm open to internships, freelance opportunities, and collaborative projects where I can grow and contribute.</p>
+    </section>
 
-  <section id="projects">
-    <h2>Projects</h2>
-  
-    <div class="project">
-      <h3>Personal Portfolio Website</h3>
-      <p>This is my personal portfolio website built using HTML, CSS, and JavaScript. It showcases my skills, projects, and contact information in a clean, responsive design.</p>
-      <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
-      <p><strong>Role:</strong> Designed and developed the full website layout and functionality.</p>
-    </div>
-  
-  
-  </section>
-  
-  <section id="resume">
-    <h2>My Resume</h2>
-    <p>You can download my latest resume below:</p>
-    <a href="DipaliGupta_Resume.pdf" class="resume-btn" download>
-      📄 Download Resume (PDF)
-    </a>
-  </section>
-  
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Personal Portfolio Website</h3>
+        <p>This is my personal portfolio website built using HTML, CSS, and JavaScript. It showcases my skills, projects, and contact information in a clean, responsive design.</p>
+        <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+        <p><strong>Role:</strong> Designed and developed the full website layout and functionality.</p>
+      </div>
+    </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: dipaligupta5454@gmail.com</p>
-  </section>
+    <section id="resume">
+      <h2>My Resume</h2>
+      <p>You can download my latest resume below:</p>
+      <a href="DipaliGupta_Resume.pdf" class="resume-btn" download>
+        📄 Download Resume (PDF)
+      </a>
+    </section>
 
-  <form name="contact" method="POST" data-netlify="true">
-    <input type="hidden" name="form-name" value="contact" />
-    <input type="text" name="name" placeholder="Your Name" required />
-    <input type="email" name="email" placeholder="Your Email" required />
-    <textarea name="message" placeholder="Your Message" required></textarea>
-    <button type="submit">Send</button>
-  </form>
-  
-  
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:dipaligupta5454@gmail.com">dipaligupta5454@gmail.com</a></p>
+
+      <form name="contact" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact" />
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
   <footer>
     <p>Connect with me:</p>
-    <a href= "https://github.com/dipali9408" target="_blank">GitHub</a> |
+    <a href="https://github.com/dipali9408" target="_blank">GitHub</a> |
     <a href="https://www.linkedin.com/in/dipali-gupta-841bba289/" target="_blank">LinkedIn</a>
-  </footer>
-  
-
-  <footer>
-    <p> Dipali Gupta</p>
+    <p>© 2025 Dipali Gupta</p>
   </footer>
 
   <script src="script.js"></script>
